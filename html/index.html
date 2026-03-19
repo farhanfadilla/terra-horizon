@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra Horizon - Sustainable Lifestyle</title>
+    
+    <!-- Tailwind CSS (No installation needed) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom Config for Fonts & Colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        heading: ['"Playfair Display"', 'serif'],
+                        body: ['"Montserrat"', 'sans-serif'],
+                    },
+                    colors: {
+                        sage: '#84A98C',
+                        jungle: '#2F3E46',
+                        cream: '#F5F7F5',
+                        moss: '#52796F',
+                        deepgreen: '#354F52'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Smooth scrolling */
+        html { scroll-behavior: smooth; }
+        /* Custom scrollbar to match theme */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #F5F7F5; }
+        ::-webkit-scrollbar-thumb { background: #84A98C; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #52796F; }
+    </style>
+</head>
+<body class="bg-cream font-body text-jungle min-h-screen flex flex-col">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 left-0 right-0 bg-cream/90 backdrop-blur-md z-50 border-b border-sage/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- Logo -->
+                <div class="flex items-center space-x-3 cursor-pointer group" onclick="switchTab('home')">
+                    <div class="bg-sage p-2 rounded-full text-white transition-transform duration-300 group-hover:scale-110">
+                        <i data-lucide="leaf" class="w-6 h-6 fill-current"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-heading text-2xl font-bold text-jungle tracking-tight leading-none">
+                            TERRA HORIZON
+                        </span>
+                        <span class="text-[10px] text-moss font-bold uppercase tracking-[0.2em] mt-1">
+                            Sustainable Lifestyle
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <button onclick="switchTab('home')" id="nav-home" class="text-sm font-semibold tracking-wide transition-colors duration-300 text-jungle border-b-2 border-sage">
+                        HOME
+                    </button>
+                    <button onclick="switchTab('news')" id="nav-news" class="text-sm font-semibold tracking-wide transition-colors duration-300 text-moss hover:text-jungle border-b-2 border-transparent">
+                        SUSTAINABILITY NEWS
+                    </button>
+                    <a href="https://waste-tracker-v2.vercel.app/" target="_blank" rel="noopener noreferrer"
+                       class="bg-deepgreen hover:bg-jungle text-white px-5 py-2.5 rounded-full text-sm font-semibold tracking-wide transition-all duration-300 flex items-center shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                        WASTE TRACKER APP <i data-lucide="external-link" class="ml-2 w-3.5 h-3.5"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button onclick="toggleMobileMenu()" class="text-deepgreen">
+                        <i data-lucide="menu" id="menu-icon" class="w-7 h-7"></i>
+                        <i data-lucide="x" id="close-icon" class="w-7 h-7 hidden"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-cream border-t border-gray-200 shadow-xl absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <button onclick="switchTab('home'); toggleMobileMenu()" class="block w-full text-left px-3 py-3 rounded-md text-sm font-bold uppercase tracking-wider text-jungle hover:bg-sage/20">
+                    Home
+                </button>
+                <button onclick="switchTab('news'); toggleMobileMenu()" class="block w-full text-left px-3 py-3 rounded-md text-sm font-bold uppercase tracking-wider text-jungle hover:bg-sage/20">
+                    Sustainability News
+                </button>
+                <a href="https://waste-tracker-v2.vercel.app/" target="_blank" class="block w-full text-left px-3 py-3 rounded-md text-sm font-bold uppercase tracking-wider text-sage hover:bg-sage/20 flex items-center">
+                    Launch Tracker App <i data-lucide="external-link" class="ml-2 w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="flex-grow pt-20">
+        
+        <!-- HOME VIEW CONTAINER -->
+        <div id="view-home">
+            
+            <!-- Hero Section -->
+            <section class="relative bg-cream pt-12 pb-20 lg:pt-32 lg:pb-32 overflow-hidden">
+                <!-- Abstract Blobs -->
+                <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-sage/10 blur-3xl pointer-events-none"></div>
+                <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-moss/10 blur-3xl pointer-events-none"></div>
+
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+                    <div class="inline-flex items-center px-4 py-1.5 rounded-full bg-[#CAD2C5]/30 text-deepgreen text-xs font-bold tracking-widest uppercase mb-8">
+                        <span class="w-2 h-2 rounded-full bg-sage mr-3"></span>
+                        Building a Greener Future
+                    </div>
+                    <h1 class="font-heading text-5xl md:text-7xl lg:text-8xl font-bold text-jungle mb-8 leading-[1.1]">
+                        Sustain the Planet,<br />
+                        <span class="text-sage italic">Secure the Future.</span>
+                    </h1>
+                    <p class="mt-4 text-lg md:text-xl text-moss mb-12 leading-relaxed max-w-2xl mx-auto font-medium">
+                        Terra Horizon bridges the gap between daily habits and global impact. 
+                        Manage your food waste, track your carbon footprint, and stay informed.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center gap-5">
+                        <a href="https://waste-tracker-v2.vercel.app/" target="_blank" 
+                           class="bg-deepgreen text-white px-8 py-4 rounded-full text-sm font-bold uppercase tracking-wide hover:bg-jungle transition-all shadow-lg hover:shadow-xl flex items-center justify-center transform hover:-translate-y-1">
+                            Start Tracking Waste <i data-lucide="arrow-right" class="ml-2 w-5 h-5"></i>
+                        </a>
+                        <button onclick="switchTab('news')" 
+                                class="bg-transparent text-deepgreen border-2 border-deepgreen/20 px-8 py-4 rounded-full text-sm font-bold uppercase tracking-wide hover:bg-deepgreen hover:text-white transition-all flex items-center justify-center">
+                            Read Latest News
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="py-24 bg-white">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center mb-16">
+                        <h2 class="font-heading text-4xl md:text-5xl font-bold text-jungle mb-6">Why Terra Horizon?</h2>
+                        <p class="text-moss max-w-2xl mx-auto text-lg">We provide the tools and knowledge you need to transform your waste management habits.</p>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-3 gap-10">
+                        <!-- Feature 1 -->
+                        <div class="p-10 rounded-3xl bg-cream hover:bg-[#CAD2C5]/20 transition-colors duration-300 group cursor-default">
+                            <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-8 group-hover:scale-110 transition-transform duration-300 text-sage">
+                                <i data-lucide="recycle" class="w-8 h-8"></i>
+                            </div>
+                            <h3 class="font-heading text-2xl font-bold text-jungle mb-4">Smart Waste Tracking</h3>
+                            <p class="text-moss leading-relaxed font-medium">Monitor your daily food waste output and get actionable insights to reduce it effectively.</p>
+                        </div>
+                        
+                        <!-- Feature 2 -->
+                        <div class="p-10 rounded-3xl bg-cream hover:bg-[#CAD2C5]/20 transition-colors duration-300 group cursor-default">
+                            <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-8 group-hover:scale-110 transition-transform duration-300 text-sage">
+                                <i data-lucide="globe" class="w-8 h-8"></i>
+                            </div>
+                            <h3 class="font-heading text-2xl font-bold text-jungle mb-4">Global Impact</h3>
+                            <p class="text-moss leading-relaxed font-medium">Join a community of eco-warriors. See how your small changes contribute to a healthier planet.</p>
+                        </div>
+                        
+                        <!-- Feature 3 -->
+                        <div class="p-10 rounded-3xl bg-cream hover:bg-[#CAD2C5]/20 transition-colors duration-300 group cursor-default">
+                            <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-8 group-hover:scale-110 transition-transform duration-300 text-sage">
+                                <i data-lucide="bar-chart-3" class="w-8 h-8"></i>
+                            </div>
+                            <h3 class="font-heading text-2xl font-bold text-jungle mb-4">Data-Driven Lifestyle</h3>
+                            <p class="text-moss leading-relaxed font-medium">Visualize your progress with our advanced analytics dashboard available in our app.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- NEWS VIEW CONTAINER (Hidden by default) -->
+        <div id="view-news" class="hidden">
+            <section class="py-12 bg-cream min-h-screen">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center mb-16 pt-10">
+                        <h2 class="font-heading text-4xl md:text-5xl font-bold text-jungle mb-6">Sustainability News</h2>
+                        <p class="text-moss text-lg">Stay updated with the latest breakthroughs in the green revolution.</p>
+                    </div>
+
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <!-- News Item 1 -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-sage/20">
+                            <div class="h-56 bg-sage relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+                                <div class="absolute inset-0 flex items-center justify-center opacity-20 transform group-hover:scale-110 transition-transform duration-700">
+                                    <i data-lucide="leaf" class="w-20 h-20 text-white"></i>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <div class="flex justify-between items-center mb-5">
+                                    <span class="text-xs font-bold text-sage uppercase tracking-widest bg-sage/10 px-3 py-1 rounded-full">Innovation</span>
+                                    <span class="text-xs text-gray-400 font-medium">Oct 24, 2023</span>
+                                </div>
+                                <h3 class="font-heading text-2xl font-bold text-jungle mb-4 group-hover:text-sage transition-colors leading-tight">
+                                    New Composting Tech Reduces Methane by 40%
+                                </h3>
+                                <p class="text-moss text-sm mb-6 line-clamp-3 leading-relaxed">
+                                    Scientists have developed a new enzyme-based accelerator that breaks down organic matter faster and cleaner.
+                                </p>
+                                <button class="text-deepgreen font-bold text-sm uppercase tracking-wide flex items-center hover:text-sage transition-colors group/btn">
+                                    Read Full Story <i data-lucide="chevron-right" class="ml-1 w-4 h-4 transform group-hover/btn:translate-x-1 transition-transform"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- News Item 2 -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-sage/20">
+                            <div class="h-56 bg-moss relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+                                <div class="absolute inset-0 flex items-center justify-center opacity-20 transform group-hover:scale-110 transition-transform duration-700">
+                                    <i data-lucide="leaf" class="w-20 h-20 text-white"></i>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <div class="flex justify-between items-center mb-5">
+                                    <span class="text-xs font-bold text-sage uppercase tracking-widest bg-sage/10 px-3 py-1 rounded-full">Policy</span>
+                                    <span class="text-xs text-gray-400 font-medium">Nov 02, 2023</span>
+                                </div>
+                                <h3 class="font-heading text-2xl font-bold text-jungle mb-4 group-hover:text-sage transition-colors leading-tight">
+                                    Global Summit Agrees on Plastic Ban by 2030
+                                </h3>
+                                <p class="text-moss text-sm mb-6 line-clamp-3 leading-relaxed">
+                                    World leaders have signed a historic treaty to phase out single-use plastics in the next decade.
+                                </p>
+                                <button class="text-deepgreen font-bold text-sm uppercase tracking-wide flex items-center hover:text-sage transition-colors group/btn">
+                                    Read Full Story <i data-lucide="chevron-right" class="ml-1 w-4 h-4 transform group-hover/btn:translate-x-1 transition-transform"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- News Item 3 -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-sage/20">
+                            <div class="h-56 bg-deepgreen relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+                                <div class="absolute inset-0 flex items-center justify-center opacity-20 transform group-hover:scale-110 transition-transform duration-700">
+                                    <i data-lucide="leaf" class="w-20 h-20 text-white"></i>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <div class="flex justify-between items-center mb-5">
+                                    <span class="text-xs font-bold text-sage uppercase tracking-widest bg-sage/10 px-3 py-1 rounded-full">Lifestyle</span>
+                                    <span class="text-xs text-gray-400 font-medium">Nov 15, 2023</span>
+                                </div>
+                                <h3 class="font-heading text-2xl font-bold text-jungle mb-4 group-hover:text-sage transition-colors leading-tight">
+                                    5 Zero-Waste Kitchen Swaps You Can Make Today
+                                </h3>
+                                <p class="text-moss text-sm mb-6 line-clamp-3 leading-relaxed">
+                                    From beeswax wraps to silicone bags, here are the easiest ways to ditch plastic in your kitchen.
+                                </p>
+                                <button class="text-deepgreen font-bold text-sm uppercase tracking-wide flex items-center hover:text-sage transition-colors group/btn">
+                                    Read Full Story <i data-lucide="chevron-right" class="ml-1 w-4 h-4 transform group-hover/btn:translate-x-1 transition-transform"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-jungle text-white py-16 font-body">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="bg-sage p-2 rounded-full text-white">
+                            <i data-lucide="leaf" class="w-5 h-5 fill-current"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-heading text-xl font-bold tracking-wide leading-none">TERRA HORIZON</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm max-w-sm leading-relaxed mb-6">
+                        Empowering individuals and organizations to reduce waste and embrace a sustainable future through technology and education.
+                    </p>
+                    <div class="flex space-x-4">
+                        <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-sage transition-colors cursor-pointer">
+                            <i data-lucide="globe" class="w-5 h-5"></i>
+                        </div>
+                        <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-sage transition-colors cursor-pointer">
+                            <i data-lucide="external-link" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-heading text-xl font-bold mb-6 text-cream">Quick Links</h4>
+                    <ul class="space-y-4 text-sm text-gray-400 font-medium">
+                        <li><a href="#" onclick="switchTab('home')" class="hover:text-sage transition-colors flex items-center"><i data-lucide="chevron-right" class="w-3.5 h-3.5 mr-2"></i> Home</a></li>
+                        <li><a href="#" class="hover:text-sage transition-colors flex items-center"><i data-lucide="chevron-right" class="w-3.5 h-3.5 mr-2"></i> Our Mission</a></li>
+                        <li><a href="#" onclick="switchTab('news')" class="hover:text-sage transition-colors flex items-center"><i data-lucide="chevron-right" class="w-3.5 h-3.5 mr-2"></i> News</a></li>
+                        <li><a href="https://waste-tracker-v2.vercel.app/" class="hover:text-sage transition-colors flex items-center"><i data-lucide="chevron-right" class="w-3.5 h-3.5 mr-2"></i> Waste Tracker</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-heading text-xl font-bold mb-6 text-cream">Contact</h4>
+                    <ul class="space-y-4 text-sm text-gray-400 font-medium">
+                        <li class="flex items-start">
+                            <span class="text-sage font-bold mr-2">@</span> hello@terrahorizon.com
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-sage font-bold mr-2">T</span> +1 (555) 123-4567
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-sage font-bold mr-2">L</span> Jakarta, Indonesia
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 font-medium tracking-wide">
+                <p>&copy; 2025 Terra Horizon. All rights reserved.</p>
+                <div class="flex space-x-8 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Logic Script -->
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // State Management
+        function switchTab(tabName) {
+            const homeView = document.getElementById('view-home');
+            const newsView = document.getElementById('view-news');
+            const navHome = document.getElementById('nav-home');
+            const navNews = document.getElementById('nav-news');
+
+            if (tabName === 'home') {
+                homeView.classList.remove('hidden');
+                newsView.classList.add('hidden');
+                
+                // Active Styling
+                navHome.classList.add('text-jungle', 'border-sage');
+                navHome.classList.remove('text-moss', 'border-transparent');
+                
+                navNews.classList.remove('text-jungle', 'border-sage');
+                navNews.classList.add('text-moss', 'border-transparent');
+            } else {
+                homeView.classList.add('hidden');
+                newsView.classList.remove('hidden');
+
+                // Active Styling
+                navNews.classList.add('text-jungle', 'border-sage');
+                navNews.classList.remove('text-moss', 'border-transparent');
+
+                navHome.classList.remove('text-jungle', 'border-sage');
+                navHome.classList.add('text-moss', 'border-transparent');
+            }
+            
+            // Scroll to top smoothly
+            window.scrollTo(0, 0);
+        }
+
+        // Mobile Menu Logic
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                menuIcon.classList.add('hidden');
+                closeIcon.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+                menuIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
