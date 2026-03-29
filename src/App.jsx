@@ -26,7 +26,7 @@ const articlesData = [
     body: [
       {
         type: 'paragraph',
-        text: 'Bayangkan ini: sepertiga dari seluruh makanan yang diproduksi di dunia tidak pernah dimakan. Menurut data terbaru dari UNEP (United Nations Environment Programme), sekitar 1,3 miliar ton makanan terbuang setiap tahun — senilai lebih dari USD 526 miliar atau setara Rp 8.700 triliun. Angka ini bukan sekadar statistik; ini adalah krisis global yang dimulai dari dapur rumah kita sendiri.'
+        text: 'Bayangkan ini: sepertiga dari seluruh makanan yang diproduksi di dunia tidak pernah dimakan. Menurut data terbaru dari UNEP (United Nations Environment Programme), sekitar 1,3 miliar ton makanan terbuang setiap tahun, senilai lebih dari USD 526 miliar atau setara Rp 8.700 triliun. Angka ini bukan sekadar statistik; ini adalah krisis global yang dimulai dari dapur rumah kita sendiri.'
       },
       {
         type: 'heading',
@@ -34,7 +34,7 @@ const articlesData = [
       },
       {
         type: 'paragraph',
-        text: 'Limbah makanan menyumbang 8-10% dari total emisi gas rumah kaca global. Ketika makanan membusuk di tempat pembuangan sampah, ia menghasilkan metana — gas rumah kaca yang 80 kali lebih kuat dari karbon dioksida dalam jangka 20 tahun pertama. Menurut FAO (Food and Agriculture Organization), jika limbah makanan adalah sebuah negara, ia akan menjadi penghasil emisi terbesar ketiga di dunia setelah China dan Amerika Serikat.'
+        text: 'Limbah makanan menyumbang 8-10% dari total emisi gas rumah kaca global. Ketika makanan membusuk di tempat pembuangan sampah, ia menghasilkan metana, gas rumah kaca yang 80 kali lebih kuat dari karbon dioksida dalam jangka 20 tahun pertama. Menurut FAO (Food and Agriculture Organization), jika limbah makanan adalah sebuah negara, ia akan menjadi penghasil emisi terbesar ketiga di dunia setelah China dan Amerika Serikat.'
       },
       {
         type: 'stat',
@@ -47,7 +47,7 @@ const articlesData = [
       },
       {
         type: 'paragraph',
-        text: 'Data dari EPA (Environmental Protection Agency) menunjukkan bahwa rumah tangga adalah penyumbang terbesar limbah makanan — sekitar 40-50% di tingkat konsumen. Penyebabnya beragam: membeli terlalu banyak, lupa memeriksa tanggal kedaluwarsa, salah menyimpan bahan makanan, hingga memasak porsi yang berlebihan. Di Indonesia sendiri, Bappenas mencatat bahwa rata-rata penduduk Indonesia membuang 300 kg makanan per kapita per tahun.'
+        text: 'Data dari EPA (Environmental Protection Agency) menunjukkan bahwa rumah tangga adalah penyumbang terbesar limbah makanan, mencapai sekitar 40-50% di tingkat konsumen. Penyebabnya beragam: membeli terlalu banyak, lupa memeriksa tanggal kedaluwarsa, salah menyimpan bahan makanan, hingga memasak porsi yang berlebihan. Di Indonesia sendiri, Bappenas mencatat bahwa rata-rata penduduk Indonesia membuang 300 kg makanan per kapita per tahun.'
       },
       {
         type: 'heading',
@@ -56,11 +56,11 @@ const articlesData = [
       {
         type: 'list',
         items: [
-          'Meal Planning — Rencanakan menu mingguan sebelum belanja. Riset menunjukkan ini bisa mengurangi food waste hingga 25%.',
-          'FIFO (First In, First Out) — Letakkan bahan makanan yang lebih lama di depan kulkas. Teknik sederhana ini mencegah makanan terlupakan.',
-          'Cintai "Ugly Produce" — Buah dan sayur yang bentuknya tidak sempurna memiliki nutrisi yang sama. 40% produksi pertanian ditolak karena alasan estetika.',
-          'Komposting — Ubah sisa makanan menjadi pupuk. Satu keluarga bisa mengalihkan 200 kg limbah dari tempat pembuangan per tahun.',
-          'Kontrol Porsi — Gunakan piring yang lebih kecil. Studi dari Cornell University menunjukkan piring 2 inci lebih kecil mengurangi konsumsi hingga 22%.'
+          'Meal Planning: Rencanakan menu mingguan sebelum belanja. Riset menunjukkan ini bisa mengurangi food waste hingga 25%.',
+          'FIFO (First In, First Out): Letakkan bahan makanan yang lebih lama di depan kulkas. Teknik sederhana ini mencegah makanan terlupakan.',
+          'Cintai "Ugly Produce": Buah dan sayur yang bentuknya tidak sempurna memiliki nutrisi yang sama. 40% produksi pertanian ditolak karena alasan estetika.',
+          'Komposting: Ubah sisa makanan menjadi pupuk. Satu keluarga bisa mengalihkan 200 kg limbah dari tempat pembuangan per tahun.',
+          'Kontrol Porsi: Gunakan piring yang lebih kecil. Studi dari Cornell University menunjukkan piring 2 inci lebih kecil mengurangi konsumsi hingga 22%.'
         ]
       },
       {
@@ -73,7 +73,7 @@ const articlesData = [
       },
       {
         type: 'quote',
-        text: '"Mengurangi food waste adalah salah satu cara paling efektif yang bisa dilakukan individu untuk melawan perubahan iklim." — Project Drawdown'
+        text: '"Mengurangi food waste adalah salah satu cara paling efektif yang bisa dilakukan individu untuk melawan perubahan iklim." - Project Drawdown'
       },
       {
         type: 'sources',
@@ -93,7 +93,7 @@ const articlesData = [
     body: [
       {
         type: 'paragraph',
-        text: 'Kamu mungkin tidak menyadarinya, tapi kaos katun yang kamu kenakan hari ini membutuhkan sekitar 2.700 liter air untuk diproduksi — setara dengan air minum satu orang selama 2,5 tahun. Ini hanya untuk satu potong kaos. Menurut data dari University of Manchester dan World Resources Institute, industri fashion bertanggung jawab atas 10% dari total emisi karbon global — lebih besar dari gabungan penerbangan internasional dan pelayaran.'
+        text: 'Kamu mungkin tidak menyadarinya, tapi kaos katun yang kamu kenakan hari ini membutuhkan sekitar 2.700 liter air untuk diproduksi, setara dengan air minum satu orang selama 2,5 tahun. Ini hanya untuk satu potong kaos. Menurut data dari University of Manchester dan World Resources Institute, industri fashion bertanggung jawab atas 10% dari total emisi karbon global, lebih besar dari gabungan penerbangan internasional dan pelayaran.'
       },
       {
         type: 'heading',
@@ -123,11 +123,11 @@ const articlesData = [
       {
         type: 'list',
         items: [
-          'Cuci Lebih Bijak — Cuci pakaian dengan air dingin dan kantong pencuci khusus untuk menangkap mikroplastik. Kurangi frekuensi mencuci jika pakaian belum benar-benar kotor.',
-          'Secondhand First — Pasar thrift store dan platform resale seperti di Indonesia tumbuh 25% per tahun. Membeli bekas mengurangi jejak karbon pakaian hingga 82%.',
-          'Perpanjang Umur Pakaian — Belajar menjahit sederhana dan merawat pakaian. Memperpanjang umur pakaian 9 bulan saja bisa mengurangi jejak karbonnya 20-30%.',
-          'Pilih Kualitas, Bukan Kuantitas — Prinsip capsule wardrobe: miliki lebih sedikit pakaian, tapi yang berkualitas bagus dan timeless. Biaya per pemakaian jauh lebih hemat.',
-          'Dukung Brand Berkelanjutan — Cari label yang transparan tentang supply chain mereka. Di Indonesia, semakin banyak brand lokal yang mengadopsi praktik sustainable fashion.'
+          'Cuci Lebih Bijak: Cuci pakaian dengan air dingin dan kantong pencuci khusus untuk menangkap mikroplastik. Kurangi frekuensi mencuci jika pakaian belum benar-benar kotor.',
+          'Secondhand First: Pasar thrift store dan platform resale seperti di Indonesia tumbuh 25% per tahun. Membeli bekas mengurangi jejak karbon pakaian hingga 82%.',
+          'Perpanjang Umur Pakaian: Belajar menjahit sederhana dan merawat pakaian. Memperpanjang umur pakaian 9 bulan saja bisa mengurangi jejak karbonnya 20-30%.',
+          'Pilih Kualitas, Bukan Kuantitas: Prinsip capsule wardrobe, miliki lebih sedikit pakaian, tapi yang berkualitas bagus dan timeless. Biaya per pemakaian jauh lebih hemat.',
+          'Dukung Brand Berkelanjutan: Cari label yang transparan tentang supply chain mereka. Di Indonesia, semakin banyak brand lokal yang mengadopsi praktik sustainable fashion.'
         ]
       },
       {
@@ -136,11 +136,11 @@ const articlesData = [
       },
       {
         type: 'paragraph',
-        text: 'Slow fashion bukan tentang berhenti membeli pakaian sama sekali — ini tentang membuat keputusan yang lebih sadar. Tanyakan pada dirimu sebelum membeli: "Apakah aku akan memakai ini setidaknya 30 kali?" Jika jawabannya tidak, mungkin kamu tidak benar-benar membutuhkannya. Perubahan besar dimulai dari keputusan kecil di lemari pakaianmu.'
+        text: 'Slow fashion bukan tentang berhenti membeli pakaian sama sekali, melainkan tentang membuat keputusan yang lebih sadar. Tanyakan pada dirimu sebelum membeli: "Apakah aku akan memakai ini setidaknya 30 kali?" Jika jawabannya tidak, mungkin kamu tidak benar-benar membutuhkannya. Perubahan besar dimulai dari keputusan kecil di lemari pakaianmu.'
       },
       {
         type: 'quote',
-        text: '"Mode tercepat untuk menyelamatkan planet? Pakai apa yang sudah kamu punya." — Orsola de Castro, Fashion Revolution'
+        text: '"Mode tercepat untuk menyelamatkan planet? Pakai apa yang sudah kamu punya." - Orsola de Castro, Fashion Revolution'
       },
       {
         type: 'sources',
@@ -160,7 +160,7 @@ const articlesData = [
     body: [
       {
         type: 'paragraph',
-        text: 'Era di mana laporan keberlanjutan perusahaan hanya menjadi dokumen formalitas yang berdebu di rak kantor akan segera berakhir. Otoritas Jasa Keuangan (OJK) telah mengambil langkah tegas: mulai 1 Januari 2027, perusahaan terbuka (emiten) papan utama dan bank-bank besar di Indonesia wajib menerbitkan laporan keberlanjutan yang selaras dengan standar International Sustainability Standards Board (ISSB) — standar global yang setara dengan IFRS untuk keuangan.'
+        text: 'Era di mana laporan keberlanjutan perusahaan hanya menjadi dokumen formalitas yang berdebu di rak kantor akan segera berakhir. Otoritas Jasa Keuangan (OJK) telah mengambil langkah tegas: mulai 1 Januari 2027, perusahaan terbuka (emiten) papan utama dan bank-bank besar di Indonesia wajib menerbitkan laporan keberlanjutan yang selaras dengan standar International Sustainability Standards Board (ISSB), standar global yang setara dengan IFRS untuk keuangan.'
       },
       {
         type: 'heading',
@@ -168,7 +168,7 @@ const articlesData = [
       },
       {
         type: 'paragraph',
-        text: 'Standar Pelaporan Keberlanjutan (SPK) Indonesia — tepatnya PSPK 1 dan PSPK 2 — diterbitkan resmi pada Juli 2025. Ini adalah adaptasi nasional dari IFRS S1 (persyaratan umum pengungkapan informasi terkait keberlanjutan) dan IFRS S2 (pengungkapan terkait iklim). Artinya, data ESG perusahaan Indonesia harus memenuhi standar investor internasional dan setara dengan benchmark global.'
+        text: 'Standar Pelaporan Keberlanjutan (SPK) Indonesia, tepatnya PSPK 1 dan PSPK 2, diterbitkan resmi pada Juli 2025. Ini adalah adaptasi nasional dari IFRS S1 (persyaratan umum pengungkapan informasi terkait keberlanjutan) dan IFRS S2 (pengungkapan terkait iklim). Artinya, data ESG perusahaan Indonesia harus memenuhi standar investor internasional dan setara dengan benchmark global.'
       },
       {
         type: 'stat',
@@ -190,11 +190,11 @@ const articlesData = [
       {
         type: 'list',
         items: [
-          'Transparansi Menyeluruh — Perusahaan wajib mengungkapkan risiko dan peluang terkait iklim yang memengaruhi kinerja keuangan, termasuk metrik emisi karbon dan rencana transisi ke net-zero.',
-          'Biaya Kepatuhan vs Akses Modal — Meskipun beban kepatuhan meningkat, perusahaan dengan performa ESG yang kuat akan lebih menarik bagi investor global dan mendapat biaya modal yang lebih rendah.',
-          'Taksonomi Keuangan Berkelanjutan (TKBI) — Versi 2 diluncurkan Februari 2025, Versi 3 akan hadir 2026. Ini mengharmonisasi klasifikasi aktivitas bisnis "hijau" dengan kerangka IFRS.',
-          'Green Finance — Peluang obligasi hijau (green bonds) dan produk keuangan berkelanjutan semakin terbuka bagi perusahaan yang early adopter standar tinggi.',
-          'Sektor Prioritas — Energi, pertambangan, manufaktur, agrikultur, dan kehutanan (AFOLU) akan paling terdampak oleh regulasi baru ini.'
+          'Transparansi Menyeluruh: Perusahaan wajib mengungkapkan risiko dan peluang terkait iklim yang memengaruhi kinerja keuangan, termasuk metrik emisi karbon dan rencana transisi ke net-zero.',
+          'Biaya Kepatuhan vs Akses Modal: Meskipun beban kepatuhan meningkat, perusahaan dengan performa ESG yang kuat akan lebih menarik bagi investor global dan mendapat biaya modal yang lebih rendah.',
+          'Taksonomi Keuangan Berkelanjutan (TKBI): Versi 2 diluncurkan Februari 2025, Versi 3 akan hadir 2026. Ini mengharmonisasi klasifikasi aktivitas bisnis "hijau" dengan kerangka IFRS.',
+          'Green Finance: Peluang obligasi hijau (green bonds) dan produk keuangan berkelanjutan semakin terbuka bagi perusahaan yang early adopter standar tinggi.',
+          'Sektor Prioritas: Energi, pertambangan, manufaktur, agrikultur, dan kehutanan (AFOLU) akan paling terdampak oleh regulasi baru ini.'
         ]
       },
       {
@@ -203,11 +203,11 @@ const articlesData = [
       },
       {
         type: 'paragraph',
-        text: 'Survei RSM Global menunjukkan bahwa perusahaan-perusahaan yang melihat ESG sebagai pendorong strategis — bukan sekadar checklist kepatuhan — mengalami pertumbuhan nilai yang lebih konsisten. ESG yang dilakukan dengan benar membangun kepercayaan investor, menarik talenta terbaik, dan menciptakan ketahanan bisnis jangka panjang. Di Indonesia, transisi ini bukan hanya soal memenuhi peraturan OJK, tapi tentang memposisikan diri di panggung ekonomi global yang semakin menuntut transparansi.'
+        text: 'Survei RSM Global menunjukkan bahwa perusahaan-perusahaan yang melihat ESG sebagai pendorong strategis, bukan sekadar checklist kepatuhan, mengalami pertumbuhan nilai yang lebih konsisten. ESG yang dilakukan dengan benar membangun kepercayaan investor, menarik talenta terbaik, dan menciptakan ketahanan bisnis jangka panjang. Di Indonesia, transisi ini bukan hanya soal memenuhi peraturan OJK, tapi tentang memposisikan diri di panggung ekonomi global yang semakin menuntut transparansi.'
       },
       {
         type: 'quote',
-        text: '"ESG bukan biaya — ESG adalah investasi dalam ketahanan bisnis dan kepercayaan publik." — OJK Sustainability Finance Roadmap'
+        text: '"ESG bukan biaya, ESG adalah investasi dalam ketahanan bisnis dan kepercayaan publik." - OJK Sustainability Finance Roadmap'
       },
       {
         type: 'sources',
@@ -299,8 +299,9 @@ const Navbar = ({ activeTab, setActiveTab, mobileMenuOpen, setMobileMenuOpen }) 
             </button>
           ))}
           <a
-            href="#"
-            onClick={(e) => e.preventDefault()}
+            href="https://sustainability-platform.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-gradient-to-r from-[#354F52] to-[#2F3E46] hover:from-[#2F3E46] hover:to-[#354F52] text-white px-5 py-2.5 rounded-xl text-sm font-semibold tracking-wide transition-all duration-300 flex items-center shadow-lg hover:shadow-xl hover:shadow-[#354F52]/20 transform hover:-translate-y-0.5"
           >
             SUSTAINABILITY REPORT <ExternalLink size={14} className="ml-2" />
@@ -338,8 +339,9 @@ const Navbar = ({ activeTab, setActiveTab, mobileMenuOpen, setMobileMenuOpen }) 
             </button>
           ))}
           <a
-            href="#"
-            onClick={(e) => e.preventDefault()}
+            href="https://sustainability-platform.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="block w-full text-left px-4 py-3 rounded-xl text-sm font-bold uppercase tracking-wider text-[#84A98C] hover:bg-[#CAD2C5]/20 flex items-center"
           >
             Sustainability Report <ExternalLink size={16} className="ml-2" />
@@ -350,62 +352,313 @@ const Navbar = ({ activeTab, setActiveTab, mobileMenuOpen, setMobileMenuOpen }) 
   </nav>
 );
 
+// --- Typewriter Text Component ---
+const TypewriterText = () => {
+  const words = ['Sustain', 'Protect', 'Restore'];
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsVisible(false);
+      setTimeout(() => {
+        setCurrentWordIndex((prev) => (prev + 1) % words.length);
+        setIsVisible(true);
+      }, 400);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <span className="inline-flex items-baseline">
+      <span
+        className={`text-transparent bg-clip-text bg-gradient-to-r from-[#84A98C] to-[#52796F] transition-all duration-300 ${
+          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'
+        }`}
+        style={{ minWidth: '280px', display: 'inline-block' }}
+      >
+        {words[currentWordIndex]}
+      </span>
+      <span className="text-[#84A98C] animate-typewriter-cursor ml-1 font-light">|</span>
+    </span>
+  );
+};
+
+// --- Floating Particles ---
+const FloatingParticles = () => {
+  const particles = Array.from({ length: 14 }, (_, i) => ({
+    id: i,
+    left: `${5 + (i * 7) % 90}%`,
+    top: `${10 + (i * 13) % 80}%`,
+    size: 3 + (i % 4) * 2,
+    delay: `${(i * 0.5) % 4}s`,
+    duration: `${4 + (i % 3) * 2}s`,
+    opacity: 0.15 + (i % 5) * 0.08,
+  }));
+
+  return (
+    <>
+      {particles.map((p) => (
+        <div
+          key={p.id}
+          className="absolute rounded-full animate-particle-drift"
+          style={{
+            left: p.left,
+            top: p.top,
+            width: `${p.size}px`,
+            height: `${p.size}px`,
+            background: p.id % 3 === 0
+              ? 'rgba(132, 169, 140, 0.6)'
+              : p.id % 3 === 1
+              ? 'rgba(82, 121, 111, 0.5)'
+              : 'rgba(202, 210, 197, 0.7)',
+            animationDelay: p.delay,
+            animationDuration: p.duration,
+            opacity: p.opacity,
+          }}
+        />
+      ))}
+    </>
+  );
+};
+
+// --- SVG Earth Globe Illustration ---
+const Earth3D = () => (
+  <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 mx-auto">
+    {/* Soft halo glow */}
+    <div className="absolute inset-[-12%] rounded-full animate-glow-pulse"
+      style={{ background: 'radial-gradient(circle, rgba(132,169,140,0.2) 30%, rgba(82,121,111,0.1) 55%, transparent 70%)' }} />
+
+    {/* Orbit ring 1 */}
+    <div className="absolute inset-[-15%] animate-orbit-spin" style={{ transformStyle: 'preserve-3d' }}>
+      <div className="absolute inset-0 rounded-full border border-[#84A98C]/15" style={{ transform: 'rotateX(65deg)' }} />
+      <div className="absolute w-2.5 h-2.5 rounded-full bg-[#84A98C] shadow-lg shadow-[#84A98C]/50"
+        style={{ top: '8%', left: '50%', transform: 'translateX(-50%)' }} />
+    </div>
+
+    {/* Orbit ring 2 */}
+    <div className="absolute inset-[-8%] animate-orbit-spin-reverse" style={{ transformStyle: 'preserve-3d' }}>
+      <div className="absolute inset-0 rounded-full border border-dashed border-[#52796F]/10" style={{ transform: 'rotateX(75deg)' }} />
+    </div>
+
+    {/* Main SVG — Earth Globe */}
+    <div className="absolute inset-2 md:inset-4">
+      <svg viewBox="0 0 400 400" className="w-full h-full drop-shadow-2xl">
+        <defs>
+          {/* Ocean gradient */}
+          <radialGradient id="oceanGrad" cx="38%" cy="35%" r="55%">
+            <stop offset="0%" stopColor="#5BA4D9" />
+            <stop offset="45%" stopColor="#3A8BC2" />
+            <stop offset="100%" stopColor="#1B5E8A" />
+          </radialGradient>
+          {/* Deep ocean dark overlay */}
+          <radialGradient id="oceanDepth" cx="65%" cy="65%" r="50%">
+            <stop offset="0%" stopColor="transparent" />
+            <stop offset="100%" stopColor="rgba(10,40,70,0.25)" />
+          </radialGradient>
+          {/* Atmosphere glow */}
+          <radialGradient id="atmosphere" cx="50%" cy="50%" r="50%">
+            <stop offset="85%" stopColor="transparent" />
+            <stop offset="95%" stopColor="rgba(100,190,255,0.15)" />
+            <stop offset="100%" stopColor="rgba(100,190,255,0.3)" />
+          </radialGradient>
+          {/* Specular highlight */}
+          <radialGradient id="specular" cx="35%" cy="30%" r="35%">
+            <stop offset="0%" stopColor="rgba(255,255,255,0.45)" />
+            <stop offset="50%" stopColor="rgba(255,255,255,0.1)" />
+            <stop offset="100%" stopColor="transparent" />
+          </radialGradient>
+          {/* Land texture noise filter */}
+          <filter id="landTexture" x="-10%" y="-10%" width="120%" height="120%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" seed="5" result="noise" />
+            <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise" />
+            <feBlend mode="soft-light" in="SourceGraphic" in2="grayNoise" result="textured" />
+            <feComposite in="textured" in2="SourceGraphic" operator="in" />
+          </filter>
+          {/* Ocean subtle texture */}
+          <filter id="oceanTexture" x="-5%" y="-5%" width="110%" height="110%">
+            <feTurbulence type="turbulence" baseFrequency="0.03" numOctaves="2" seed="12" result="waves" />
+            <feColorMatrix type="saturate" values="0" in="waves" result="grayWaves" />
+            <feBlend mode="soft-light" in="SourceGraphic" in2="grayWaves" result="textured" />
+            <feComposite in="textured" in2="SourceGraphic" operator="in" />
+          </filter>
+          {/* Clip to globe circle */}
+          <clipPath id="globeClip">
+            <circle cx="200" cy="200" r="150" />
+          </clipPath>
+        </defs>
+
+        {/* Globe shadow */}
+        <ellipse cx="200" cy="370" rx="120" ry="18" fill="rgba(0,0,0,0.08)" />
+
+        {/* Ocean base */}
+        <circle cx="200" cy="200" r="150" fill="url(#oceanGrad)" />
+        {/* Ocean depth */}
+        <circle cx="200" cy="200" r="150" fill="url(#oceanDepth)" />
+        {/* Subtle ocean wave texture */}
+        <circle cx="200" cy="200" r="150" fill="rgba(30,80,140,0.04)" filter="url(#oceanTexture)" />
+
+        {/* Continents with texture — clipped to globe */}
+        <g clipPath="url(#globeClip)" filter="url(#landTexture)">
+          {/* North America */}
+          <path d="M95 130 Q100 115 115 108 Q130 100 145 105 Q155 110 150 125 Q148 140 155 150 Q160 158 155 168 Q148 178 140 175 Q130 165 120 170 Q108 172 100 165 Q90 155 88 145 Q87 138 95 130 Z" fill="#4A9E3F" />
+          {/* Central America */}
+          <path d="M140 175 Q145 180 142 190 Q140 198 135 205 Q132 208 130 205 Q128 198 132 190 Q136 182 140 175 Z" fill="#3D8B35" />
+          {/* South America */}
+          <path d="M145 210 Q155 205 165 210 Q172 218 175 230 Q178 248 175 265 Q170 280 162 290 Q155 295 148 288 Q140 275 138 260 Q135 245 138 230 Q140 218 145 210 Z" fill="#4A9E3F" />
+          {/* Europe */}
+          <path d="M195 100 Q205 95 215 100 Q222 108 218 118 Q215 125 208 128 Q200 130 195 125 Q190 118 192 110 Q193 105 195 100 Z" fill="#5AAE4A" />
+          {/* Africa */}
+          <path d="M210 145 Q220 138 232 142 Q240 148 245 160 Q248 175 245 195 Q242 215 238 230 Q232 248 225 258 Q218 262 212 255 Q205 242 202 225 Q200 210 202 195 Q205 175 208 160 Q209 150 210 145 Z" fill="#4A9E3F" />
+          {/* Asia (large) */}
+          <path d="M230 95 Q245 88 262 92 Q278 98 290 108 Q300 118 305 132 Q308 148 302 160 Q295 168 285 165 Q278 158 270 155 Q260 152 250 158 Q240 162 235 155 Q228 145 230 132 Q232 118 235 108 Q238 100 230 95 Z" fill="#5AAE4A" />
+          {/* India */}
+          <path d="M265 160 Q272 158 278 165 Q282 175 280 188 Q275 200 268 205 Q262 202 260 192 Q258 178 262 168 Q264 162 265 160 Z" fill="#3D8B35" />
+          {/* Australia */}
+          <path d="M290 235 Q302 228 315 233 Q322 240 320 252 Q315 262 305 265 Q295 262 288 255 Q285 245 290 235 Z" fill="#5AAE4A" />
+          {/* Indonesia / Southeast Asia */}
+          <path d="M285 195 Q292 192 298 196 Q300 202 295 205 Q288 204 285 200 Z" fill="#3D8B35" />
+          <path d="M305 198 Q310 195 316 200 Q315 206 310 207 Q305 205 305 198 Z" fill="#4A9E3F" />
+          {/* Greenland */}
+          <path d="M155 80 Q165 75 175 80 Q180 88 175 95 Q168 98 160 95 Q155 90 155 80 Z" fill="#5AAE4A" opacity="0.85" />
+
+          {/* Terrain texture dots — scattered highlands/mountains */}
+          <circle cx="110" cy="135" r="2" fill="#357A2E" opacity="0.5" />
+          <circle cx="130" cy="150" r="1.5" fill="#357A2E" opacity="0.4" />
+          <circle cx="155" cy="240" r="2" fill="#357A2E" opacity="0.5" />
+          <circle cx="160" cy="260" r="1.5" fill="#2D6B28" opacity="0.4" />
+          <circle cx="225" cy="180" r="2" fill="#357A2E" opacity="0.5" />
+          <circle cx="235" cy="200" r="1.8" fill="#2D6B28" opacity="0.4" />
+          <circle cx="270" cy="120" r="2" fill="#357A2E" opacity="0.45" />
+          <circle cx="285" cy="140" r="1.5" fill="#2D6B28" opacity="0.4" />
+          <circle cx="300" cy="245" r="1.5" fill="#357A2E" opacity="0.4" />
+
+          {/* Mountain ridge lines on continents */}
+          <path d="M105 140 Q115 132 125 140" stroke="#2D6B28" strokeWidth="0.8" fill="none" opacity="0.3" />
+          <path d="M150 235 Q158 225 165 235" stroke="#2D6B28" strokeWidth="0.8" fill="none" opacity="0.3" />
+          <path d="M218 165 Q228 155 238 165" stroke="#2D6B28" strokeWidth="0.8" fill="none" opacity="0.25" />
+          <path d="M260 105 Q275 95 290 108" stroke="#2D6B28" strokeWidth="0.8" fill="none" opacity="0.25" />
+
+          {/* Desert/arid patches */}
+          <ellipse cx="225" cy="155" rx="5" ry="3" fill="#C8B560" opacity="0.2" />
+          <ellipse cx="180" cy="100" rx="4" ry="2.5" fill="#C8B560" opacity="0.15" />
+        </g>
+
+        {/* Cloud wisps */}
+        <g clipPath="url(#globeClip)" opacity="0.35">
+          <ellipse cx="140" cy="145" rx="35" ry="8" fill="white" />
+          <ellipse cx="260" cy="125" rx="28" ry="6" fill="white" />
+          <ellipse cx="180" cy="220" rx="30" ry="7" fill="white" opacity="0.7" />
+          <ellipse cx="280" cy="200" rx="22" ry="5" fill="white" opacity="0.5" />
+          <ellipse cx="120" cy="110" rx="18" ry="5" fill="white" opacity="0.6" />
+        </g>
+
+        {/* Atmosphere */}
+        <circle cx="200" cy="200" r="150" fill="url(#atmosphere)" />
+        {/* Specular shine */}
+        <circle cx="200" cy="200" r="150" fill="url(#specular)" />
+        {/* Edge ring */}
+        <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(100,190,255,0.2)" strokeWidth="2" />
+      </svg>
+    </div>
+
+    {/* Small floating elements around globe */}
+    <div className="absolute -top-2 -right-2 w-3 h-3 rounded-full bg-[#84A98C]/60 animate-float" />
+    <div className="absolute bottom-4 -left-4 w-2 h-2 rounded-full bg-[#84A98C]/50 animate-float-delayed" />
+    <div className="absolute top-1/4 -right-6 w-1.5 h-1.5 rounded-full bg-[#CAD2C5]/70 animate-float" style={{ animationDelay: '1s' }} />
+    <div className="absolute bottom-1/3 -left-3 w-2 h-2 rounded-full bg-[#52796F]/40 animate-float" style={{ animationDelay: '2s' }} />
+  </div>
+);
+
+
 // --- Hero Section ---
 const Hero = ({ setActiveTab }) => (
-  <div className="relative bg-[#F5F7F5] pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden font-body">
-    {/* Dot Grid Background */}
+  <div className="relative pt-28 pb-16 lg:pt-40 lg:pb-28 overflow-hidden font-body"
+    style={{
+      background: 'linear-gradient(135deg, #F5F7F5 0%, #EAF0EA 25%, #F0F5F0 50%, #E8F0E8 75%, #F5F7F5 100%)',
+    }}>
+    {/* Animated gradient overlay */}
+    <div className="absolute inset-0 animate-gradient-shift opacity-30"
+      style={{
+        background: 'linear-gradient(135deg, rgba(132,169,140,0.1) 0%, rgba(82,121,111,0.05) 30%, rgba(202,210,197,0.08) 60%, rgba(132,169,140,0.06) 100%)',
+      }} />
+
+    {/* Dot Grid */}
     <div className="absolute inset-0 opacity-[0.03]" style={{
       backgroundImage: 'radial-gradient(circle, #2F3E46 1px, transparent 1px)',
       backgroundSize: '32px 32px'
     }} />
 
+    {/* Floating Particles */}
+    <FloatingParticles />
+
     {/* Floating Orbs */}
-    <div className="absolute top-20 right-[15%] w-72 h-72 rounded-full bg-gradient-to-br from-[#84A98C]/15 to-transparent blur-3xl animate-float" />
-    <div className="absolute bottom-10 left-[10%] w-96 h-96 rounded-full bg-gradient-to-tr from-[#52796F]/10 to-transparent blur-3xl animate-float-delayed" />
-    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-gradient-to-br from-[#84A98C]/5 to-transparent blur-3xl" />
+    <div className="absolute top-20 right-[15%] w-72 h-72 rounded-full bg-gradient-to-br from-[#84A98C]/12 to-transparent blur-3xl animate-float" />
+    <div className="absolute bottom-10 left-[10%] w-96 h-96 rounded-full bg-gradient-to-tr from-[#52796F]/8 to-transparent blur-3xl animate-float-delayed" />
 
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div className="text-center max-w-4xl mx-auto">
-        <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-[#CAD2C5]/30 backdrop-blur-sm text-[#354F52] text-xs font-bold tracking-widest uppercase mb-8 border border-[#84A98C]/20">
-          <span className="w-2 h-2 rounded-full bg-[#84A98C] mr-3 animate-pulse" />
-          Building a Greener Future
+      {/* Split Layout */}
+      <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+        {/* Left — Content (60%) */}
+        <div className="flex-1 lg:max-w-[58%] text-center lg:text-left">
+          <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-[#CAD2C5]/30 backdrop-blur-sm text-[#354F52] text-xs font-bold tracking-widest uppercase mb-8 border border-[#84A98C]/20 shadow-sm">
+            <span className="w-2 h-2 rounded-full bg-[#84A98C] mr-3 animate-pulse" />
+            Building a Greener Future
+          </div>
+
+          <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-[#2F3E46] mb-6 leading-[1.08] animate-fade-up">
+            <TypewriterText /> the Planet,<br />
+            <span
+              className="text-transparent bg-clip-text bg-gradient-to-r from-[#C08B5C] via-[#D4A76A] to-[#52796F] italic inline-block pb-2"
+              style={{ WebkitBoxDecorationBreak: 'clone', boxDecorationBreak: 'clone' }}
+            >
+              Secure the Future.
+            </span>
+          </h1>
+
+          <p className="mt-4 text-lg md:text-xl text-[#52796F] mb-10 leading-relaxed max-w-xl mx-auto lg:mx-0 font-medium animate-fade-up-delay">
+            Terra Horizon menjembatani kebiasaan sehari-hari dengan dampak global melalui transparansi, edukasi, dan teknologi keberlanjutan.
+          </p>
+
+          <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 animate-fade-up-delay-2">
+            <a
+              href="https://sustainability-platform.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-cta-primary bg-gradient-to-r from-[#354F52] to-[#2F3E46] text-white px-8 py-4 rounded-xl text-sm font-bold uppercase tracking-wide hover:from-[#2F3E46] hover:to-[#354F52] transition-all shadow-lg hover:shadow-xl hover:shadow-[#354F52]/25 flex items-center justify-center transform hover:-translate-y-1"
+            >
+              Launch Sustainability Report <ArrowRight size={18} className="ml-2" />
+            </a>
+            <button
+              onClick={() => setActiveTab('news')}
+              className="bg-transparent text-[#354F52] border-2 border-[#354F52]/20 px-8 py-4 rounded-xl text-sm font-bold uppercase tracking-wide hover:bg-[#354F52] hover:text-white hover:border-transparent transition-all duration-300 flex items-center justify-center backdrop-blur-sm hover:shadow-lg"
+            >
+              Baca Berita Terbaru
+            </button>
+          </div>
         </div>
-        <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-bold text-[#2F3E46] mb-8 leading-[1.1] animate-fade-up">
-          Sustain the Planet,<br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#84A98C] to-[#52796F] italic">Secure the Future.</span>
-        </h1>
-        <p className="mt-4 text-lg md:text-xl text-[#52796F] mb-12 leading-relaxed max-w-2xl mx-auto font-medium animate-fade-up-delay">
-          Terra Horizon menjembatani kebiasaan sehari-hari dengan dampak global melalui transparansi, edukasi, dan teknologi keberlanjutan.
-        </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-5 animate-fade-up-delay-2">
-          <a
-            href="#"
-            onClick={(e) => e.preventDefault()}
-            className="bg-gradient-to-r from-[#354F52] to-[#2F3E46] text-white px-8 py-4 rounded-xl text-sm font-bold uppercase tracking-wide hover:from-[#2F3E46] hover:to-[#354F52] transition-all shadow-lg hover:shadow-xl hover:shadow-[#354F52]/20 flex items-center justify-center transform hover:-translate-y-1"
-          >
-            Launch Sustainability Report <ArrowRight size={18} className="ml-2" />
-          </a>
-          <button
-            onClick={() => setActiveTab('news')}
-            className="bg-transparent text-[#354F52] border-2 border-[#354F52]/20 px-8 py-4 rounded-xl text-sm font-bold uppercase tracking-wide hover:bg-[#354F52] hover:text-white hover:border-transparent transition-all flex items-center justify-center backdrop-blur-sm"
-          >
-            Baca Berita Terbaru
-          </button>
+
+        {/* Right — 3D Earth (40%) */}
+        <div className="flex-shrink-0 lg:max-w-[42%] w-full flex items-center justify-center animate-fade-up-delay">
+          <Earth3D />
         </div>
       </div>
 
       {/* Stats Bar */}
-      <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+      <div className="mt-16 lg:mt-20 grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-4xl mx-auto">
         {[
-          { value: 1.3, suffix: 'M', label: 'Ton makanan terbuang/tahun', prefix: '' },
-          { value: 92, suffix: 'jt', label: 'Ton limbah tekstil/tahun', prefix: '' },
-          { value: 526, suffix: 'B', label: 'USD biaya food waste global', prefix: '$' }
+          { value: 1.3, suffix: 'M', label: 'Ton makanan terbuang/tahun', prefix: '', icon: <UtensilsCrossed size={18} /> },
+          { value: 92, suffix: 'jt', label: 'Ton limbah tekstil/tahun', prefix: '', icon: <ShirtIcon size={18} /> },
+          { value: 526, suffix: 'B', label: 'USD biaya food waste global', prefix: '$', icon: <TrendingUp size={18} /> }
         ].map((stat, idx) => (
-          <div key={idx} className="text-center p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-[#84A98C]/10 hover:border-[#84A98C]/30 transition-all hover:shadow-lg hover:shadow-[#84A98C]/5 group">
-            <div className="text-3xl md:text-4xl text-[#2F3E46] mb-2 group-hover:text-[#84A98C] transition-colors">
+          <div key={idx} className="text-center p-5 rounded-2xl bg-white/60 backdrop-blur-md border border-[#84A98C]/10 hover:border-[#84A98C]/30 transition-all duration-300 hover:shadow-lg hover:shadow-[#84A98C]/8 group hover:-translate-y-1">
+            <div className="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-gradient-to-br from-[#84A98C]/15 to-[#52796F]/10 text-[#52796F] mb-3 group-hover:from-[#84A98C]/25 group-hover:to-[#52796F]/20 transition-all">
+              {stat.icon}
+            </div>
+            <div className="text-3xl md:text-4xl text-[#2F3E46] mb-1.5 group-hover:text-[#52796F] transition-colors">
               <AnimatedCounter target={stat.value} suffix={stat.suffix} prefix={stat.prefix} />
             </div>
-            <p className="text-xs text-[#52796F] font-medium uppercase tracking-wide">{stat.label}</p>
+            <p className="text-xs text-[#52796F]/80 font-medium uppercase tracking-wide">{stat.label}</p>
           </div>
         ))}
       </div>
@@ -428,28 +681,28 @@ const Features = () => (
           <Cpu size={12} className="mr-2" /> Platform
         </div>
         <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#2F3E46] mb-6">Mengapa Terra Horizon?</h2>
-        <p className="text-[#52796F] max-w-2xl mx-auto text-lg">Kami menyediakan tools dan pengetahuan untuk mentransformasi kebiasaan pengelolaan limbahmu.</p>
+        <p className="text-[#52796F] max-w-2xl mx-auto text-lg">Kami menggabungkan edukasi keberlanjutan, teknologi, dan gaya hidup sehari-hari untuk mendorong perubahan nyata bagi individu maupun pelaku usaha.</p>
       </div>
 
       <div className="grid md:grid-cols-3 gap-8">
         {[
           {
             icon: <Recycle size={28} className="text-[#84A98C]" />,
-            title: "Smart Tracking",
-            desc: "Monitor output limbah harianmu dan dapatkan insight untuk menguranginya secara efektif.",
-            badge: "AI-Powered"
-          },
-          {
-            icon: <Globe size={28} className="text-[#84A98C]" />,
-            title: "Global Impact",
-            desc: "Bergabung dengan komunitas eco-warriors. Lihat bagaimana perubahan kecilmu berkontribusi pada planet.",
-            badge: "Community"
+            title: "Sustainability Awareness",
+            desc: "Tingkatkan kesadaran keberlanjutan melalui konten yang menghubungkan isu lingkungan dengan gaya hidup dan kebiasaan sehari-hari.",
+            badge: "Lifestyle"
           },
           {
             icon: <BarChart3 size={28} className="text-[#84A98C]" />,
-            title: "Data-Driven Insights",
-            desc: "Visualisasikan progress-mu dengan dashboard analytics canggih yang tersedia di aplikasi kami.",
-            badge: "Analytics"
+            title: "Reporting untuk UMKM",
+            desc: "Platform pelaporan keberlanjutan yang mudah diakses, memandu korporasi dan UMKM membuat Sustainability Report secara mandiri.",
+            badge: "Platform"
+          },
+          {
+            icon: <Globe size={28} className="text-[#84A98C]" />,
+            title: "Berita & Teknologi",
+            desc: "Berita terkini yang mengintegrasikan topik keberlanjutan dengan kehidupan sehari-hari dan perkembangan teknologi terbaru.",
+            badge: "News + Tech"
           }
         ].map((feature, idx) => (
           <div key={idx} className="group relative p-8 rounded-2xl bg-[#F5F7F5] hover:bg-white transition-all duration-500 border border-transparent hover:border-[#84A98C]/20 hover:shadow-xl hover:shadow-[#84A98C]/5 cursor-default">
@@ -613,6 +866,14 @@ const ArticleView = ({ article, setActiveTab }) => (
               return null;
           }
         })}
+
+        {/* Disclaimer */}
+        <div className="mt-10 p-5 rounded-2xl bg-amber-50 border border-amber-200/60 text-sm">
+          <p className="text-amber-800 leading-relaxed flex items-start gap-2">
+            <span className="font-bold text-amber-600 mt-0.5 flex-shrink-0">⚠</span>
+            <span><strong>Disclaimer:</strong> Artikel ini bersifat subjektif dan merupakan opini pribadi. Pembaca diharapkan untuk memeriksa kembali keakuratan data dan informasi yang disajikan melalui sumber-sumber referensi yang tercantum.</span>
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -635,10 +896,10 @@ const MissionSection = () => (
         </div>
         <h1 className="font-heading text-4xl md:text-6xl font-bold text-[#2F3E46] mb-6 leading-[1.15]">
           Memberdayakan Perubahan <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#84A98C] to-[#52796F] italic">Melalui Transparansi</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#84A98C] to-[#52796F] italic">Melalui Kesadaran & Aksi</span>
         </h1>
         <p className="text-lg text-[#52796F] max-w-2xl mx-auto leading-relaxed font-medium">
-          Terra Horizon hadir untuk menjembatani kesenjangan antara kebiasaan individu dan dampak global — melalui data, edukasi, dan teknologi yang dapat diakses oleh semua orang.
+          Terra Horizon hadir untuk meningkatkan kesadaran keberlanjutan dalam gaya hidup sehari-hari, sekaligus menyediakan platform pelaporan yang mudah diakses bagi korporasi dan UMKM, didukung oleh berita yang mengintegrasikan keberlanjutan, lifestyle, dan teknologi.
         </p>
       </div>
     </div>
@@ -660,8 +921,8 @@ const MissionSection = () => (
           {[
             { icon: <Shield size={28} />, title: "Transparansi", desc: "Data terbuka dan akuntabel. Setiap metrik, setiap laporan, dapat diverifikasi.", gradient: "from-[#84A98C] to-[#52796F]" },
             { icon: <Zap size={28} />, title: "Inovasi", desc: "Memanfaatkan teknologi terkini untuk solusi keberlanjutan yang scalable.", gradient: "from-[#52796F] to-[#354F52]" },
-            { icon: <Users size={28} />, title: "Komunitas", desc: "Membangun jaringan individu dan organisasi yang berkomitmen pada perubahan.", gradient: "from-[#354F52] to-[#2F3E46]" },
-            { icon: <Target size={28} />, title: "Dampak Nyata", desc: "Bukan sekadar awareness — kami mengukur dan melaporkan perubahan yang terjadi.", gradient: "from-[#84A98C] to-[#354F52]" },
+            { icon: <Users size={28} />, title: "Aksesibilitas", desc: "Platform pelaporan yang mudah dijangkau oleh UMKM hingga korporasi besar.", gradient: "from-[#354F52] to-[#2F3E46]" },
+            { icon: <Target size={28} />, title: "Dampak Nyata", desc: "Bukan sekadar awareness, kami mengukur dan melaporkan perubahan yang terjadi.", gradient: "from-[#84A98C] to-[#354F52]" },
           ].map((value, idx) => (
             <div key={idx} className="group relative p-7 rounded-2xl bg-[#F5F7F5] hover:bg-white border border-transparent hover:border-[#84A98C]/20 transition-all duration-500 hover:shadow-xl hover:shadow-[#84A98C]/5 cursor-default">
               <div className={`w-12 h-12 bg-gradient-to-br ${value.gradient} rounded-xl flex items-center justify-center text-white mb-5 group-hover:scale-110 transition-transform duration-300 shadow-md`}>
@@ -687,10 +948,10 @@ const MissionSection = () => (
               Platform Keberlanjutan Terintegrasi
             </h2>
             <p className="text-[#52796F] leading-relaxed mb-6">
-              Kami mengembangkan tools pelaporan keberlanjutan yang membantu individu dan organisasi memantau, mengukur, dan mengurangi dampak lingkungan mereka — dari jejak karbon sehari-hari hingga pelaporan ESG korporasi.
+              Bagi individu, kami meningkatkan kesadaran keberlanjutan melalui berita dan konten yang menghubungkan isu lingkungan dengan gaya hidup dan teknologi. Bagi korporasi dan UMKM, kami menyediakan platform pelaporan yang mudah diakses untuk memandu pembuatan Sustainability Report secara mandiri.
             </p>
             <p className="text-[#52796F] leading-relaxed mb-8">
-              Melalui edukasi berbasis data dan berita keberlanjutan yang terkurasi, kami memastikan setiap orang memiliki pengetahuan untuk membuat keputusan yang lebih baik bagi planet ini.
+              Dengan menggabungkan edukasi, berita terkini, dan tools pelaporan, Terra Horizon memastikan setiap orang dan pelaku usaha memiliki akses untuk berkontribusi pada masa depan yang lebih berkelanjutan.
             </p>
             <div className="flex flex-wrap gap-3">
               {['Sustainability Report', 'ESG Analytics', 'Carbon Tracking', 'Edukasi Publik'].map((tag, i) => (
@@ -743,7 +1004,7 @@ const Footer = ({ setActiveTab }) => (
             </div>
           </div>
           <p className="text-gray-400 text-sm max-w-sm leading-relaxed mb-6">
-            Memberdayakan individu dan organisasi untuk mengurangi limbah dan merangkul masa depan yang berkelanjutan melalui teknologi dan edukasi.
+            Meningkatkan kesadaran keberlanjutan dalam gaya hidup sehari-hari dan menyediakan platform pelaporan yang mudah diakses bagi korporasi dan UMKM.
           </p>
           <div className="flex space-x-3">
             <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#84A98C] hover:border-[#84A98C] transition-all cursor-pointer">
@@ -762,7 +1023,7 @@ const Footer = ({ setActiveTab }) => (
             <li><button onClick={() => setActiveTab('mission')} className="hover:text-[#84A98C] transition-colors flex items-center"><ChevronRight size={14} className="mr-2"/> Misi Kami</button></li>
             <li><button onClick={() => setActiveTab('news')} className="hover:text-[#84A98C] transition-colors flex items-center"><ChevronRight size={14} className="mr-2"/> Berita</button></li>
             <li>
-              <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-[#84A98C] transition-colors flex items-center">
+              <a href="https://sustainability-platform.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-[#84A98C] transition-colors flex items-center">
                 <ChevronRight size={14} className="mr-2"/> Sustainability Report
               </a>
             </li>
